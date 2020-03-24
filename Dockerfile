@@ -33,7 +33,7 @@ ENV BASH_VERSION=4.4.19-r1 \
     FFMPEG_VERSION=3.4.4-r1
 
 RUN apk update \
-    && apk add bash=$BASH_VERSION tzdata ffmpeg=$FFMPEG_VERSION \
+    && apk add bash=$BASH_VERSION tzdata ffmpeg \
     && rm -rf /var/cache/apk/* \
     && mkdir -p /usr/data/recordings
 
