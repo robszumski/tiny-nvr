@@ -30,7 +30,7 @@ ENV TZ=Europe/Rome \
 
 ENV BASH_VERSION=4.4.19-r1 \
     TZDATA_VERSION=2019a-r0 \
-    FFMPEG_VERSION=3.4.4-r1
+    FFMPEG_VERSION=3.8.5-15
 
 RUN apk update \
     && apk add bash=$BASH_VERSION tzdata=$TZDATA_VERSION ffmpeg=$FFMPEG_VERSION \
