@@ -21,7 +21,7 @@ function getRandomName () {
 
 streamURL="${1}"
 dirName="${2}"
-dir="/tmp/recordings"
+dir="/etc/recordings"
 fileExtension="mp4"
 
 echo "Environment Variables:"
